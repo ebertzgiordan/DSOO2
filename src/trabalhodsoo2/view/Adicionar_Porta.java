@@ -40,7 +40,7 @@ public class Adicionar_Porta extends javax.swing.JInternalFrame {
         jTextField5.setText(""); // Tipo de cabo
         jTextField6.setText(""); // Uso destinado
         jTextField7.setText(""); // Usuário
-        jCheckBox1.setSelected(false); // Ocupada
+        jCheckBox1.setSelected(true); // Ocupada
         jComboBox1.setSelectedIndex(-1); // Rack
         jComboBox3.removeAllItems(); // PatchPanel
     }
