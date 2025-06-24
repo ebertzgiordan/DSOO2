@@ -174,7 +174,7 @@ public class Cadastrar_Users extends javax.swing.JInternalFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // salvar
         String nome = jTextField1.getText().trim();
-        String login = jTextField2.getText().trim();
+        String login = jTextField2.getText().trim(); // retira os espaços e  branco no inicio e no final
         String senha = new String(jPasswordField1.getPassword());
         String nivel = (String) jComboBox1.getSelectedItem();
 

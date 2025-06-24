@@ -101,7 +101,7 @@ public class PortaDAO {
 
     String tabela = tipo.equalsIgnoreCase("Telefone") ? "portas_telefone" : "portas_logicas";
     
-    // 🟢 Aqui montamos o código conforme o padrão do banco (ex: LG02, TL01)
+    // Aqui montamos o código conforme o padrão do banco (ex: LG02, TL01)
     String codigoPadrao = (tipo.equalsIgnoreCase("Telefone") ? "TL" : "LG") + patchCodigo;
 
     String sql = "SELECT p.*, p.patch_panel_id AS id_patch_panel, pp.codigo AS patch_codigo, "
